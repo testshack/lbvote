@@ -1,0 +1,5 @@
+image: lbvote
+port: 80
+env:
+  - name: REDIS
+    value: "lbvote-back"
